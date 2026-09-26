@@ -1,0 +1,21 @@
+### Gradle ###
+.gradle/
+build/
+!**/src/**/build/
+.gradletasknamecache
+gradle-app.setting
+
+### Gradle Wrapper ###
+# It is best practice to keep the wrapper in version control so anyone can build the project
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+### Java & Compiled Artifacts ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+hs_err_pid*
