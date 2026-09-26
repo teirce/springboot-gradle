@@ -1,4 +1,4 @@
-package com.example.springbootgradle;
+package com.springbootgradle;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class MyApplication {
 
-	@RequestMapping("/")
-	String home() {
-		return "Hello World!";
-	}
+    @RequestMapping("/")
+    String home() {
+        return "Hello World!";
+    }
 
-	public static void main(String[] args) {
-		SpringApplication.run(MyApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MyApplication.class, args);
+    }
 
 }

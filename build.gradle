@@ -22,5 +22,5 @@ dependencies {
 }
 
 springBoot {
-    mainClass = 'com.example.springbootgradle.MyApplication'
+	mainClass = 'com.springbootgradle.MyApplication'
 }
